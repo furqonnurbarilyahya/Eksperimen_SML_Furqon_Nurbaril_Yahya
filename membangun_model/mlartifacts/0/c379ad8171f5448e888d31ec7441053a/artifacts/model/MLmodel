@@ -1,0 +1,45 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 2.19.0
+model_size_bytes: 1149202
+model_uuid: 6ed6b1c7d5304aadb9e38ef9a982c77a
+run_id: c379ad8171f5448e888d31ec7441053a
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "usia", "required": true}, {"type": "double",
+    "name": "jumlah_tanggungan", "required": true}, {"type": "double", "name": "pendidikan",
+    "required": true}, {"type": "double", "name": "penghasilan_tahunan", "required":
+    true}, {"type": "double", "name": "tipe_kartu_kredit", "required": true}, {"type":
+    "double", "name": "lama_nasabah", "required": true}, {"type": "double", "name":
+    "jumlah_produk", "required": true}, {"type": "double", "name": "bulan_nonactive",
+    "required": true}, {"type": "double", "name": "jumlah_kontak", "required": true},
+    {"type": "double", "name": "total_limit_kredit", "required": true}, {"type": "double",
+    "name": "total_limit_kredit_dipakai", "required": true}, {"type": "double", "name":
+    "sisa_limit_kredit", "required": true}, {"type": "double", "name": "rasio_transaksi_Q4_Q1
+    ", "required": true}, {"type": "double", "name": "total_transaksi", "required":
+    true}, {"type": "double", "name": "jumlah_transaksi", "required": true}, {"type":
+    "double", "name": "rasio_jumlah_transaksi_Q4_Q1", "required": true}, {"type":
+    "double", "name": "rasio_pemakaian", "required": true}, {"type": "double", "name":
+    "gender_F", "required": true}, {"type": "double", "name": "gender_M", "required":
+    true}, {"type": "double", "name": "status_nikah_Married", "required": true}, {"type":
+    "double", "name": "status_nikah_Single", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+utc_time_created: '2025-06-27 06:23:20.170918'

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/460181863471066049/2548c600fbe342838105f47f54472dc7/artifacts
+end_time: 1750997873233
+entry_point_name: ''
+experiment_id: '460181863471066049'
+lifecycle_stage: active
+run_id: 2548c600fbe342838105f47f54472dc7
+run_name: abrasive-tern-40
+run_uuid: 2548c600fbe342838105f47f54472dc7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750997851625
+status: 3
+tags: []
+user_id: user

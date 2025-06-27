@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/460181863471066049/600ff81d41c04cdd94f6fe7fddaee76e/artifacts
+end_time: 1750999079856
+entry_point_name: ''
+experiment_id: '460181863471066049'
+lifecycle_stage: active
+run_id: 600ff81d41c04cdd94f6fe7fddaee76e
+run_name: elastic_search_1000_1
+run_uuid: 600ff81d41c04cdd94f6fe7fddaee76e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750999077513
+status: 3
+tags: []
+user_id: user

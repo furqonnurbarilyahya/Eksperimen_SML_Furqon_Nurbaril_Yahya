@@ -1,0 +1,23 @@
+digest: 2703d638
+name: dataset
+profile: '{"num_rows": 5, "num_elements": 105}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "usia", "required": true},
+  {"type": "double", "name": "jumlah_tanggungan", "required": true}, {"type": "double",
+  "name": "pendidikan", "required": true}, {"type": "double", "name": "penghasilan_tahunan",
+  "required": true}, {"type": "double", "name": "tipe_kartu_kredit", "required": true},
+  {"type": "double", "name": "lama_nasabah", "required": true}, {"type": "double",
+  "name": "jumlah_produk", "required": true}, {"type": "double", "name": "bulan_nonactive",
+  "required": true}, {"type": "double", "name": "jumlah_kontak", "required": true},
+  {"type": "double", "name": "total_limit_kredit", "required": true}, {"type": "double",
+  "name": "total_limit_kredit_dipakai", "required": true}, {"type": "double", "name":
+  "sisa_limit_kredit", "required": true}, {"type": "double", "name": "rasio_transaksi_Q4_Q1
+  ", "required": true}, {"type": "double", "name": "total_transaksi", "required":
+  true}, {"type": "double", "name": "jumlah_transaksi", "required": true}, {"type":
+  "double", "name": "rasio_jumlah_transaksi_Q4_Q1", "required": true}, {"type": "double",
+  "name": "rasio_pemakaian", "required": true}, {"type": "double", "name": "gender_F",
+  "required": true}, {"type": "double", "name": "gender_M", "required": true}, {"type":
+  "double", "name": "status_nikah_Married", "required": true}, {"type": "double",
+  "name": "status_nikah_Single", "required": true}]}'
+source: '{"tags": {"mlflow.user": "user", "mlflow.source.name": "modelling.py", "mlflow.source.type":
+  "LOCAL"}}'
+source_type: code
